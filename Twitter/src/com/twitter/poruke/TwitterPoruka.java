@@ -35,7 +35,7 @@ public class TwitterPoruka {
 	 * @return poruka kao string
 	 */
 	public String getPoruka() {
-		return "poruka";
+		return poruka;
 	}
 	/**
 	 * Metoda postavlja poruku
@@ -43,10 +43,11 @@ public class TwitterPoruka {
 	 * @throws java.lang.RuntimeException Ukoliko poruka nije uneta ili ima vise od 140 znakova
 	 */
 	public void setPoruka(String poruka) {
-		if (poruka == null || this.poruka.length() > 140)
+		if (poruka == null || poruka.length() > 140)
 			throw new RuntimeException("Poruka mora biti uneta i mora imati najvise 140 znakova");
 		this.poruka = poruka;
 	}
+	
 	/**
 	 * Metoda vraca informacije o korisniku i poruci
 	 * @return korisnik i poruka kao string
