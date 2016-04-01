@@ -3,9 +3,9 @@ package com.twitter;
 import java.util.LinkedList;
 import com.twitter.poruke.TwitterPoruka;
 /**
- * 
- * @author Andjela
  * Twitter
+ * @author Andjela
+ * 
  */
 public class Twitter {
 	/**

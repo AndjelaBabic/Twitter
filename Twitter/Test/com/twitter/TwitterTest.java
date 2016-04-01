@@ -108,14 +108,12 @@ public class TwitterTest {
 	
 	@Test (expected=java.lang.RuntimeException.class)
 	public void testVratiPorukeNull() {
-		TwitterPoruka[] nove = new TwitterPoruka[56];
-		nove = t.vratiPoruke(56, null);
+		t.vratiPoruke(56, null);
 	}
 	
 	@Test (expected=java.lang.RuntimeException.class)
 	public void testVratiPorukePrazanString() {
-		TwitterPoruka[] nove = new TwitterPoruka[56];
-		nove = t.vratiPoruke(56, "");
+		t.vratiPoruke(56, "");
 	}
 
 }

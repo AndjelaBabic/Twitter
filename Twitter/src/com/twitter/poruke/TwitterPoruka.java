@@ -1,8 +1,8 @@
 package com.twitter.poruke;
 /**
- * 
- * @author Andjela
  * Klasa se odnosi na twitter poruku
+ * @author Andjela
+ * 
  */
 public class TwitterPoruka {
 	/**
